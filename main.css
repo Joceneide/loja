@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bungee', 'cursive';
+    font-family: 'Roboto', sans-serif; 
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0, auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+
+}
+    
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+    
+a {
+    text-decoration: none;
+}
+    
+header {
+    background-color: #333;
+    color: #ee1010;
+    padding: 20px;
+}
+    
+header h1 {
+    margin: 0;
+}
+    
+.submenu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+    
+.submenu li {
+    display: inline;
+}
+    
+.submenu a {
+    color: #fff;
+    padding: 5px 10px;
+}
+    
+.destaque {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+    
+.destaque h2 {
+    margin-bottom: 20px;
+}
+    
+.destaque img {
+    
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+    
+.destaque h3 {
+    margin: 0;
+}
+    
+.noticias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    
+.noticia {
+    width: 48%;
+    margin-bottom: 20px;
+}
+    
+.noticia img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+    
+.noticia h3 {
+    margin: 0;
+}
+    
+.add-to-cart {
+    display: block;
+    margin-bottom: 10px;
+}
+    
+aside {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+    
+aside h2 {
+    margin-bottom: 20px;
+}
+@media screen and (min-width: 1024px){
+    .btn_menu{
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 761px) and (max-width: 1023px){
+    .container{
+        max-width: 90%;
+    }
+
+}
+    
